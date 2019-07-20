@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-20T10:59:39Z" name="Suite" finished-at="2019-07-20T11:00:30Z" duration-ms="50682">
+    <groups>
+    </groups>
+    <test started-at="2019-07-20T10:59:39Z" name="Test" finished-at="2019-07-20T11:00:30Z" duration-ms="50682">
+      <class name="secondtestngparameters.TestngParameters">
+        <test-method is-config="true" signature="init(java.lang.String, java.lang.String)[pri:0, instance:secondtestngparameters.TestngParameters@34123d65]" started-at="2019-07-20T10:59:39Z" name="init" finished-at="2019-07-20T10:59:45Z" duration-ms="6317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\\Users\\EP833WG\\Desktop\\Driver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="navigate_url(java.lang.String)[pri:0, instance:secondtestngparameters.TestngParameters@34123d65]" started-at="2019-07-20T10:59:45Z" name="navigate_url" finished-at="2019-07-20T11:00:24Z" duration-ms="38198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_url -->
+        <test-method is-config="true" signature="finalize()[pri:0, instance:secondtestngparameters.TestngParameters@34123d65]" started-at="2019-07-20T11:00:24Z" name="finalize" finished-at="2019-07-20T11:00:30Z" duration-ms="6136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalize -->
+      </class> <!-- secondtestngparameters.TestngParameters -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

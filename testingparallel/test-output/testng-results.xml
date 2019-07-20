@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-20T14:22:06Z" name="Suite" finished-at="2019-07-20T14:23:10Z" duration-ms="64490">
+    <groups>
+    </groups>
+    <test started-at="2019-07-20T14:22:06Z" name="Test" finished-at="2019-07-20T14:23:10Z" duration-ms="64490">
+      <class name="testingparallel.ParallelBrowserTesting">
+        <test-method signature="executiontwo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testingparallel.ParallelBrowserTesting@a514af7]" started-at="2019-07-20T19:52:06Z" name="executiontwo" finished-at="2019-07-20T19:52:52Z" duration-ms="46788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://in.yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\\Users\\EP833WG\\Desktop\\Driver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executiontwo -->
+        <test-method signature="executionone(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testingparallel.ParallelBrowserTesting@a514af7]" started-at="2019-07-20T19:52:06Z" name="executionone" finished-at="2019-07-20T19:52:22Z" duration-ms="16694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\\Users\\EP833WG\\Desktop\\Driver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executionone -->
+        <test-method signature="executionthree(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testingparallel.ParallelBrowserTesting@a514af7]" started-at="2019-07-20T19:52:06Z" name="executionthree" finished-at="2019-07-20T19:52:59Z" duration-ms="53204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.msn.com/en-in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\\Users\\EP833WG\\Desktop\\Driver\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executionthree -->
+        <test-method is-config="true" signature="finalize()[pri:0, instance:testingparallel.ParallelBrowserTesting@a514af7]" started-at="2019-07-20T19:52:59Z" name="finalize" finished-at="2019-07-20T19:53:10Z" duration-ms="11246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalize -->
+      </class> <!-- testingparallel.ParallelBrowserTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

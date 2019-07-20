@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="methods">
+  <test thread-count="5" name="Test">
+  <parameter name="property1" value="webdriver.chrome.driver"/>
+  <parameter name="property2" value="C:\\Users\\EP833WG\\Desktop\\Driver\\chromedriver.exe"/>
+  <parameter name="base_url1" value="http://www.google.com"/>
+  <parameter name="base_url2" value="https://in.yahoo.com"/>
+  <parameter name="base_url3" value="https://www.msn.com/en-in"/>
+  <classes>
+  <class name="testingparallel.ParallelBrowserTesting"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="property1" value="webdriver.chrome.driver"/>
+  <parameter name="property2" value="C:\\Users\\EP833WG\\Desktop\\Driver\\chromedriver.exe"/>
+  <parameter name="base_url" value="http://www.google.com"/>
+  <classes>
+  <class name="secondtestngparameters.TestngParameters"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
