@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-23T05:21:52Z" name="Default suite" finished-at="2019-07-23T05:22:10Z" duration-ms="18145">
+    <groups>
+    </groups>
+    <test started-at="2019-07-23T05:21:52Z" name="Default test" finished-at="2019-07-23T05:22:10Z" duration-ms="18145">
+      <class name="pagefactorymodelexample.TestNGExample">
+        <test-method is-config="true" signature="init()[pri:0, instance:pagefactorymodelexample.TestNGExample@1fa268de]" started-at="2019-07-23T10:51:52Z" name="init" finished-at="2019-07-23T10:51:58Z" duration-ms="5937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="github_register()[pri:0, instance:pagefactorymodelexample.TestNGExample@1fa268de]" started-at="2019-07-23T10:51:58Z" name="github_register" finished-at="2019-07-23T10:52:09Z" duration-ms="11142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- github_register -->
+        <test-method is-config="true" signature="finalize()[pri:0, instance:pagefactorymodelexample.TestNGExample@1fa268de]" started-at="2019-07-23T10:52:09Z" name="finalize" finished-at="2019-07-23T10:52:10Z" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalize -->
+      </class> <!-- pagefactorymodelexample.TestNGExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
