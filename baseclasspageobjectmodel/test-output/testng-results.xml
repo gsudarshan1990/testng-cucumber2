@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-26T15:26:19Z" name="Default suite" finished-at="2019-07-26T15:26:43Z" duration-ms="24494">
+    <groups>
+    </groups>
+    <test started-at="2019-07-26T15:26:19Z" name="Default test" finished-at="2019-07-26T15:26:43Z" duration-ms="24494">
+      <class name="baseclasspageobjectmodel.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:baseclasspageobjectmodel.RegisterTest@359f7cdf]" started-at="2019-07-26T20:56:19Z" name="setUp" finished-at="2019-07-26T20:56:24Z" duration-ms="5505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registertest()[pri:0, instance:baseclasspageobjectmodel.RegisterTest@359f7cdf]" started-at="2019-07-26T20:56:24Z" name="registertest" finished-at="2019-07-26T20:56:42Z" duration-ms="17942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registertest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:baseclasspageobjectmodel.RegisterTest@359f7cdf]" started-at="2019-07-26T20:56:42Z" name="tearDown" finished-at="2019-07-26T20:56:43Z" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- baseclasspageobjectmodel.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-29T09:35:54Z" name="Suite" finished-at="2019-07-29T09:36:32Z" duration-ms="37783">
+    <groups>
+      <group name="B">
+        <method signature="LoginPageTest.logintest()[pri:0, instance:reportbaseclassconfiguration.LoginPageTest@49139829]" name="logintest" class="reportbaseclassconfiguration.LoginPageTest"/>
+      </group> <!-- B -->
+      <group name="firsttest">
+        <method signature="MainPageTest.test_homepage()[pri:0, instance:reportbaseclassconfiguration.MainPageTest@223191a6]" name="test_homepage" class="reportbaseclassconfiguration.MainPageTest"/>
+      </group> <!-- firsttest -->
+    </groups>
+    <test started-at="2019-07-29T09:35:54Z" name="Test" finished-at="2019-07-29T09:36:32Z" duration-ms="37783">
+      <class name="reportbaseclassconfiguration.LoginPageTest">
+        <test-method signature="logintest()[pri:0, instance:reportbaseclassconfiguration.LoginPageTest@49139829]" started-at="2019-07-29T09:36:28Z" name="logintest" depends-on-groups="firsttest" finished-at="2019-07-29T09:36:31Z" duration-ms="3280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- reportbaseclassconfiguration.LoginPageTest -->
+      <class name="reportbaseclassconfiguration.MainPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:reportbaseclassconfiguration.MainPageTest@223191a6]" started-at="2019-07-29T09:35:54Z" name="setUp" finished-at="2019-07-29T09:36:00Z" duration-ms="5685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_homepage()[pri:0, instance:reportbaseclassconfiguration.MainPageTest@223191a6]" started-at="2019-07-29T09:36:00Z" name="test_homepage" finished-at="2019-07-29T09:36:28Z" duration-ms="27799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_homepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:reportbaseclassconfiguration.MainPageTest@223191a6]" started-at="2019-07-29T09:36:31Z" name="tearDown" finished-at="2019-07-29T09:36:32Z" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- reportbaseclassconfiguration.MainPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-29T06:26:39Z" name="Default suite" finished-at="2019-07-29T06:27:03Z" duration-ms="23678">
+    <groups>
+      <group name="first">
+        <method signature="AuthenticationPageTest.authenticationtest()[pri:0, instance:tests.AuthenticationPageTest@4f6ee6e4]" name="authenticationtest" class="tests.AuthenticationPageTest"/>
+      </group> <!-- first -->
+      <group name="second">
+        <method signature="LoginPageTest.logintest()[pri:0, instance:tests.LoginPageTest@6d763516]" name="logintest" class="tests.LoginPageTest"/>
+      </group> <!-- second -->
+    </groups>
+    <test started-at="2019-07-29T06:26:39Z" name="Default test" finished-at="2019-07-29T06:27:03Z" duration-ms="23678">
+      <class name="tests.AuthenticationPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AuthenticationPageTest@4f6ee6e4]" started-at="2019-07-29T11:56:39Z" name="setUp" finished-at="2019-07-29T11:56:46Z" duration-ms="6381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="authenticationtest()[pri:0, instance:tests.AuthenticationPageTest@4f6ee6e4]" started-at="2019-07-29T11:56:46Z" name="authenticationtest" finished-at="2019-07-29T11:56:53Z" duration-ms="7492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationtest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AuthenticationPageTest@4f6ee6e4]" started-at="2019-07-29T11:57:02Z" name="tearDown" finished-at="2019-07-29T11:57:03Z" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AuthenticationPageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method signature="logintest()[pri:0, instance:tests.LoginPageTest@6d763516]" started-at="2019-07-29T11:56:53Z" name="logintest" depends-on-groups="first" finished-at="2019-07-29T11:57:02Z" duration-ms="8787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
